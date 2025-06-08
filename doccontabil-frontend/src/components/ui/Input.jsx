@@ -3,6 +3,7 @@ import React from 'react';
 const Input = ({
   label,
   type = 'text',
+  name,        // ← ADICIONAMOS ESTA LINHA!
   placeholder,
   value,
   onChange,
@@ -46,6 +47,7 @@ const Input = ({
       {/* Campo de input */}
       <input
         id={inputId}
+        name={name}        // ← ADICIONAMOS ESTA LINHA!
         type={type}
         value={value}
         onChange={onChange}
