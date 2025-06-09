@@ -184,21 +184,22 @@ const LoginPage = () => {
               </button>
             </p>
           </div>
+        </div>
 
-          {/* Dicas para teste */}
-          <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
-            <h3 className="font-medium text-blue-900 mb-2">💡 Para testar:</h3>
-            <ul className="text-sm text-blue-700 space-y-1">
-              <li>• Tente enviar formulário vazio</li>
-              <li>• Digite email inválido</li>
-              <li>• Use senha com menos de 6 caracteres</li>
-              <li>• Email válido: teste@exemplo.com</li>
-              <li>• Qualquer senha com 6+ caracteres</li>
-            </ul>
-          </div>
+        {/* Dicas para teste */}
+        <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
+          <h3 className="font-medium text-blue-900 mb-2">💡 Para testar:</h3>
+          <ul className="text-sm text-blue-700 space-y-1">
+            <li>• Tente enviar formulário vazio</li>
+            <li>• Digite email inválido</li>
+            <li>• Use senha com menos de 6 caracteres</li>
+            <li>• Email válido: teste@exemplo.com</li>
+            <li>• Qualquer senha com 6+ caracteres</li>
+          </ul>
         </div>
       </div>
-      );
+    </div>
+  );
 };
 
-      export default LoginPage;
+export default LoginPage;
